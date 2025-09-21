@@ -1,0 +1,45 @@
+name: text_editor_canvas
+description: A simple text editor canvas project
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/RobotoCondensed-VariableFont_wght.ttf
+    - family: Lobster
+      fonts:
+        - asset: fonts/Lobster-Regular.ttf
+    - family: Ralsihten
+      fonts:
+        - asset: fonts/Ralsihten.otf
+    - family: Malibu
+      fonts:
+        - asset: fonts/Super Malibu.ttf
+    - family: Toffee
+      fonts:
+        - asset: fonts/Sweet Toffee.ttf
+    - family: Youthead
+      fonts:
+        - asset: fonts/Youthead.otf
